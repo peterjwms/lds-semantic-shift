@@ -5,9 +5,9 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-ID = "QWNId6sOWvQm7HA7ftGnqw"
-SECRET = "dopu7j8FYtOHnfVIUZiHSzmJgdDCxQ"
-USER_AGENT = "Christian text scraper by u/I_Am_A_Rock_7"
+ID = ID
+SECRET = SECRET
+USER_AGENT = USER_AGENT
 
 reddit = praw.Reddit(
     client_id=ID,
